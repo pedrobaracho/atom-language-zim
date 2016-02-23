@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v1.0.1** &mdash; *Released: 23 February 2016*
+
+* Forking 
+
 ## **v1.0.0** &mdash; *Released: 30 November 2015*
 
 * PR [#6](https://github.com/lee-dohm/language-generic-config/pull/6) by [@Alhadis](https://github.com/Alhadis) &mdash; Add .gitattributes to affected file extensions

@@ -1,15 +1,14 @@
 {
-  "name": "language-generic-config",
-  "author": "Lee Dohm <lee@lee-dohm.com>",
+  "name": "language-zim",
+  "author": "Pedro Baracho <pedropbaracho@gmail.com>",
   "version": "1.0.0",
-  "description": "Provides basic syntax highlighting for configuration files that are just composed of comments or non-comments",
+  "description": "Provides basic syntax highlighting for Zim files (www.zim.biz)",
   "keywords": [
-    "generic",
-    "configuration",
+    "zim",
     "grammar",
     "syntax"
   ],
-  "repository": "https://github.com/lee-dohm/language-generic-config",
+  "repository": "https://github.com/pedrobaracho/atom-language-zim",
   "license": "MIT",
   "engines": {
     "atom": ">=0.196.0 <2.0.0"
