@@ -1,0 +1,58 @@
+'scopeName': 'source.zim'
+'fileTypes': [
+  'zim'
+]
+'firstLineMatch': '^#!.*\\b(procedure)'
+'name': 'Zim'
+'patterns': [
+  {
+    'comment': 'keywords for procedures'
+    'name': 'keyword.control.procedures.zim'
+    'match': '\\b(procedure|localprocedure|endprocedure)\\b'
+  }
+  {
+    'comment': 'keywords for procedures'
+    'name': 'keyword.control.procedures.zim'
+    'match': '\\b(procedure|localprocedure|endprocedure)\\b'
+  }
+  {
+    'comment': 'keywords that delimit flow conditionals'
+    'name': 'keyword.control.conditional.zim'
+    'match': '\\b(if|else|endif)\\b'
+  }
+  {
+    'comment': 'keywords that delimit loops'
+    'name': 'keyword.control.repeat.zim'
+    'match': '\\b(while|endwhile)\\b'
+  }
+  {
+    'include': '#comment'
+  }
+  {
+    'comment': 'zim commands'
+    'name': 'keyword.other.zim'
+    'match': '\\b(find|let|compute|set|out|return|window|form|continue|dispose|close|transmit|exit|select|open|at|for|report|from|heading|footing|break|detail|page|sorted by|change|delete|where)\\b'
+  }
+  {
+    'comment': 'zim constants'
+    'name': 'constant.other.zim'
+    'match': '\\b(current|terminal)\\b'
+  }
+  {
+    'comment': 'zim constants 2'
+    'name': 'support.constant.zim'
+    'match': '(\\$)[a-zA-Z]\\w*'
+  }
+]
+'repository':
+  'comment':
+    'captures':
+      '1':
+        'name': 'comment.line.number-sign.zim'
+      '2':
+        'name': 'punctuation.definition.comment.zim'
+      '3':
+        'name': 'comment.line.percent.zim'
+      '4':
+        'name': 'punctuation.definition.comment.zim'
+    'match': '((%).*$\\n?)'
